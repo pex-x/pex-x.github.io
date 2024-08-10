@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" type="image/x-icon" href="pfp.png">
+    <title>[pex: ~]# ls</title>
+</head>
+<body>
+    <div class="id">
+        <img src="pfp.png" alt="Pex PFP">
+        <div class="right">
+            <h1>Hey, I'm Pex!</h1>
+            <h2>Click through to learn about me!</h2>
+            <button class="accordion">Certification's 🎊</button>
+            <div class="panel">
+                <p>SANS GFACT, SANS GSEC, EC-Council Network Defense Essentials, CompTIA PenTest+, TestOut x3</p>
+            </div>
+            
+            <button class="accordion">Capture The Flag 🚩</button>
+            <div class="panel">
+                <p>99th Percentile NCL, Regional CCDC Qualifier, 10th OSMOSIS CTF</p>
+            </div>
+            
+            <button class="accordion">Associations/Involvement 👴</button>
+            <div class="panel">
+                <p>OSMOSIS Foundation Member (potential CTF comittee???), TraceLabs, General Teaching/Speaking</p>
+            </div>
+
+            <button class="accordion">Personal Projects ⌨️</button>
+            <div class="panel">
+                <p>xpex.me, HoneyPot, IDS, TryHackMe Top 13% (reach out to learn more!)</p>
+            </div>
+
+            <button class="accordion">Contact 📧</button>
+            <div class="panel">
+                <p>OSINT me or follow me on LinkedIn :)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <a class="display1-left" href="https://www.linkedin.com/in/pexx/">work</a>
+        <a class="display1-right" href="index.html">home</a>
+        <a class="display1-center" href="https://medium.com/@pexx">blog</a>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
