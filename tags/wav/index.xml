@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WAV on [pex: ~]# ls</title>
+    <link>https://xpex.me/tags/wav/</link>
+    <description>Recent content in WAV on [pex: ~]# ls</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Apr 2026 13:25:51 -0600</lastBuildDate>
+    <atom:link href="https://xpex.me/tags/wav/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RITSEC CTF 2026 - Forensics, Song Inside A Shell</title>
+      <link>https://xpex.me/blog/rit/</link>
+      <pubDate>Tue, 07 Apr 2026 13:25:51 -0600</pubDate>
+      <guid>https://xpex.me/blog/rit/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34; class=&#34;mt-8 mb-3 text-xl sm:text-2xl text-white&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;relative inline-block&#34;&gt;&#xD;&#xA;      &lt;strong&gt;Introduction:&lt;/strong&gt;&#xD;&#xA;      &lt;span&#xD;&#xA;        class=&#34;absolute left-0 -bottom-1 h-px w-0 bg-indigo-400&#34;&gt;&lt;/span&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Over the weekend, I competed in RITSEC&amp;rsquo;s CTF. This overall was a tough CTF to someone who has been out of the super technical world for a while now, but between family obligations, and work, I didn&amp;rsquo;t put more than a few hours into the CTF total.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;There was one audio forensics challenge that I didn&amp;rsquo;t get when the event was ongoing, but I revisited it after the event was fully over. This challenge was worth 464 Points, and called &amp;ldquo;Song Inside A Shell&amp;rdquo;. For someone who loves forensics, and conveniently is terrible at music production, I found this challenge interesting. A super easy solve if you knew what to do, but more creative then technical.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
