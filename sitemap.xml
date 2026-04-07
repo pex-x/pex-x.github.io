@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xpex.me/</loc>
-    <lastmod>2024-01-01T15:00:00+00:00</lastmod>
+    <lastmod>2025-04-06T20:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://xpex.me/blog/osint-thm/</loc>
+    <lastmod>2025-04-06T20:00:00-06:00</lastmod>
   </url><url>
     <loc>https://xpex.me/blog/</loc>
-    <lastmod>2024-01-01T15:00:00+00:00</lastmod>
+    <lastmod>2025-04-06T20:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://xpex.me/tags/ctf/</loc>
+    <lastmod>2025-04-06T20:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://xpex.me/tags/osint/</loc>
+    <lastmod>2025-04-06T20:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://xpex.me/tags/</loc>
+    <lastmod>2025-04-06T20:00:00-06:00</lastmod>
+  </url><url>
+    <loc>https://xpex.me/tags/thm/</loc>
+    <lastmod>2025-04-06T20:00:00-06:00</lastmod>
   </url><url>
     <loc>https://xpex.me/tags/certification/</loc>
     <lastmod>2024-01-01T15:00:00+00:00</lastmod>
@@ -18,9 +33,6 @@
     <lastmod>2024-01-01T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xpex.me/tags/sans/</loc>
-    <lastmod>2024-01-01T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xpex.me/tags/</loc>
     <lastmod>2024-01-01T15:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xpex.me/about/</loc>

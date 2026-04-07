@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on [pex: ~]# ls</title>
-    <link>https://xpex.me/blog/</link>
-    <description>Recent content in Blogs on [pex: ~]# ls</description>
+    <title>Ctf on [pex: ~]# ls</title>
+    <link>https://xpex.me/tags/ctf/</link>
+    <description>Recent content in Ctf on [pex: ~]# ls</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Apr 2025 20:00:00 -0600</lastBuildDate>
-    <atom:link href="https://xpex.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://xpex.me/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Intro To OSINT — THM Walkthrough</title>
       <link>https://xpex.me/blog/osint-thm/</link>
       <pubDate>Sun, 06 Apr 2025 20:00:00 -0600</pubDate>
       <guid>https://xpex.me/blog/osint-thm/</guid>
       <description>&lt;h2 id=&#34;introduction&#34; class=&#34;mt-8 mb-3 text-xl sm:text-2xl text-white&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;relative inline-block&#34;&gt;&#xD;&#xA;      &lt;strong&gt;Introduction:&lt;/strong&gt;&#xD;&#xA;      &lt;span&#xD;&#xA;        class=&#34;absolute left-0 -bottom-1 h-px w-0 bg-indigo-400&#34;&gt;&lt;/span&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hello everyone! My name is Pex and today I am going to post a brief writeup on the OSINT Level 1 Room on TryHackMe, created by the incredible F1NDX. If you are interested in getting started in OSINT, click the link below to get started!&lt;/p&gt;&#xA;&lt;p&gt;THM OSINT Level 1 Room — &lt;a href=&#34;https://tryhackme.com/room/osintintel&#34;&gt;https://tryhackme.com/room/osintintel&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img class=&#34;mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20&#34; src=&#34;https://xpex.me/images/osint-thm/thm1.png&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&#xD;&#xA;  alt=&#34;&#34;&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>I Passed the SANS GSEC in 3 days, here’s how.</title>
-      <link>https://xpex.me/blog/gsec/</link>
-      <pubDate>Mon, 01 Jan 2024 15:00:00 +0000</pubDate>
-      <guid>https://xpex.me/blog/gsec/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34; class=&#34;mt-8 mb-3 text-xl sm:text-2xl text-white&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;relative inline-block&#34;&gt;&#xD;&#xA;      &lt;strong&gt;Introduction&lt;/strong&gt;&#xD;&#xA;      &lt;span&#xD;&#xA;        class=&#34;absolute left-0 -bottom-1 h-px w-0 bg-indigo-400&#34;&gt;&lt;/span&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;You didn’t read that wrong, I got my SANS GSEC Network, Endpoint, and Cloud in 3 Days, 2 if you count my break from studying, but still listening to the material.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;My story starts long long ago, and by long long ago, I mean in December of 2023. I had always participated in Cyber Events, and when I was in High School, I discovered CyberStart America (RIP Cyberstart, you will be missed). Cyberstart was an intro-level, 6-month-long CTF that taught the fundamentals of Cybersecurity and Hacking. I fell in love with this event and began taking it more and more seriously, soon, I placed within the top 5 in my state.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

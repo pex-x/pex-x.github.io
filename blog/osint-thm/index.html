@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <link rel="icon" type="image/png" href="/avatar.png">
-<title>I Passed the SANS GSEC in 3 days, here’s how.</title>
+<title>An Intro To OSINT — THM Walkthrough</title>
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -404,11 +404,19 @@
       <div class="mb-3 text-xs uppercase tracking-widest text-gray-500">Table of contents</div><nav class="toc border border-gray-800/70 bg-[#070709] rounded-sm p-4 text-base text-gray-300">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction"><strong>Introduction</strong></a></li>
-    <li><a href="#part-1-buy-thousands-of-sticky-notes-you-are-going-to-need-them"><strong>Part 1: Buy thousands of Sticky Notes, you are going to need them.</strong></a></li>
-    <li><a href="#part-2-2x-speed-is-your-friend"><strong>Part 2: 2x Speed is your friend.</strong></a></li>
-    <li><a href="#part-3-labs-who-needs-em"><strong>Part 3: Labs, who needs ‘em?</strong></a></li>
-    <li><a href="#conclusion-what-you-put-in-is-what-you-get-out"><strong>Conclusion: What You Put In Is What You Get Out.</strong></a></li>
+    <li><a href="#introduction"><strong>Introduction:</strong></a></li>
+    <li><a href="#task-2-google-dorking"><strong>Task 2: Google Dorking</strong></a></li>
+    <li><a href="#task-3-introduction-to-osint"><strong>Task 3: Introduction to OSINT</strong></a>
+      <ul>
+        <li><a href="#1-wiki-page"><strong>1. Wiki Page:</strong></a></li>
+        <li><a href="#2-social-media-accounts"><strong>2. Social Media Accounts</strong></a></li>
+        <li><a href="#3-news-outletsnew-corporations"><strong>3. News Outlets/New Corporations</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#task-4-metadata-extraction"><strong>Task 4: Metadata Extraction</strong></a></li>
+    <li><a href="#task-5-socmint"><strong>Task 5: SOCMINT</strong></a></li>
+    <li><a href="#task-6-osint-fusion"><strong>Task 6: OSINT Fusion</strong></a></li>
+    <li><a href="#conclusion"><strong>Conclusion:</strong></a></li>
   </ul>
 </nav>
       </nav></div>
@@ -418,22 +426,22 @@
   <article class="col-span-12 lg:col-span-9">
     <header class="mb-6">
   <h1 class="text-2xl sm:text-3xl md:text-4xl tracking-wide text-white">
-    I Passed the SANS GSEC in 3 days, here’s how.
+    An Intro To OSINT — THM Walkthrough
   </h1>
 
   <div class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm sm:text-base text-gray-400">
-    <span class="font-mono">Jan 01, 2024 • 15:00</span>
+    <span class="font-mono">Apr 06, 2025 • 20:00</span>
     <span class="text-gray-700">/</span>
-    <span class="font-mono">6 min read</span>
-  </div><div class="mt-3 flex flex-wrap gap-2"><a href="/%20tags/certification"
+    <span class="font-mono">5 min read</span>
+  </div><div class="mt-3 flex flex-wrap gap-2"><a href="/%20tags/osint"
       class="px-2 py-0.5 text-xs sm:text-sm rounded-sm border border-gray-700/70 text-gray-300 bg-black/30 hover:text-white hover:border-indigo-400/40 transition-colors">
-      #certification
-    </a><a href="/%20tags/gsec"
+      #osint
+    </a><a href="/%20tags/thm"
       class="px-2 py-0.5 text-xs sm:text-sm rounded-sm border border-gray-700/70 text-gray-300 bg-black/30 hover:text-white hover:border-indigo-400/40 transition-colors">
-      #gsec
-    </a><a href="/%20tags/sans"
+      #thm
+    </a><a href="/%20tags/ctf"
       class="px-2 py-0.5 text-xs sm:text-sm rounded-sm border border-gray-700/70 text-gray-300 bg-black/30 hover:text-white hover:border-indigo-400/40 transition-colors">
-      #sans
+      #ctf
     </a></div></header>
 
 
@@ -446,11 +454,19 @@
         <div class="px-4 pb-4 toc text-base text-gray-300">
           <nav id="TableOfContents">
   <ul>
-    <li><a href="#introduction"><strong>Introduction</strong></a></li>
-    <li><a href="#part-1-buy-thousands-of-sticky-notes-you-are-going-to-need-them"><strong>Part 1: Buy thousands of Sticky Notes, you are going to need them.</strong></a></li>
-    <li><a href="#part-2-2x-speed-is-your-friend"><strong>Part 2: 2x Speed is your friend.</strong></a></li>
-    <li><a href="#part-3-labs-who-needs-em"><strong>Part 3: Labs, who needs ‘em?</strong></a></li>
-    <li><a href="#conclusion-what-you-put-in-is-what-you-get-out"><strong>Conclusion: What You Put In Is What You Get Out.</strong></a></li>
+    <li><a href="#introduction"><strong>Introduction:</strong></a></li>
+    <li><a href="#task-2-google-dorking"><strong>Task 2: Google Dorking</strong></a></li>
+    <li><a href="#task-3-introduction-to-osint"><strong>Task 3: Introduction to OSINT</strong></a>
+      <ul>
+        <li><a href="#1-wiki-page"><strong>1. Wiki Page:</strong></a></li>
+        <li><a href="#2-social-media-accounts"><strong>2. Social Media Accounts</strong></a></li>
+        <li><a href="#3-news-outletsnew-corporations"><strong>3. News Outlets/New Corporations</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#task-4-metadata-extraction"><strong>Task 4: Metadata Extraction</strong></a></li>
+    <li><a href="#task-5-socmint"><strong>Task 5: SOCMINT</strong></a></li>
+    <li><a href="#task-6-osint-fusion"><strong>Task 6: OSINT Fusion</strong></a></li>
+    <li><a href="#conclusion"><strong>Conclusion:</strong></a></li>
   </ul>
 </nav>
         </div>
@@ -462,74 +478,147 @@
       <div class="md-content text-lg sm:text-xl leading-relaxed text-gray-200">
         <h2 id="introduction" class="mt-8 mb-3 text-xl sm:text-2xl text-white">
     <span class="relative inline-block">
-      <strong>Introduction</strong>
+      <strong>Introduction:</strong>
       <span
         class="absolute left-0 -bottom-1 h-px w-0 bg-indigo-400"></span>
     </span>
 </h2>
-<p>You didn’t read that wrong, I got my SANS GSEC Network, Endpoint, and Cloud in 3 Days, 2 if you count my break from studying, but still listening to the material.</p>
-<p> </p>
-<p>My story starts long long ago, and by long long ago, I mean in December of 2023. I had always participated in Cyber Events, and when I was in High School, I discovered CyberStart America (RIP Cyberstart, you will be missed). Cyberstart was an intro-level, 6-month-long CTF that taught the fundamentals of Cybersecurity and Hacking. I fell in love with this event and began taking it more and more seriously, soon, I placed within the top 5 in my state.</p>
-<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/gsec/cy1.png" loading="lazy" decoding="async"
+<p>Hello everyone! My name is Pex and today I am going to post a brief writeup on the OSINT Level 1 Room on TryHackMe, created by the incredible F1NDX. If you are interested in getting started in OSINT, click the link below to get started!</p>
+<p>THM OSINT Level 1 Room — <a href="https://tryhackme.com/room/osintintel">https://tryhackme.com/room/osintintel</a></p>
+<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/osint-thm/thm1.png" loading="lazy" decoding="async"
   alt=""></p>
-<p>Flash forward a few years, and being in College, heavily involved with extracurriculars, my classes, scholarships, and more, I found myself with minimal free time. When Christmas break rolled around, I tried to do CyberStart again. I lost my progress since I wasn’t a part of my district anymore, but who cares? :(</p>
-<p> </p>
-<p>Within 2 days, I got 76,000 points, and at that point, responsibilities took over. I stopped and wasn’t expecting to win anything, but I was sitting in a CS class of mine when I got the email. For the third year, I was a National Cyber Scholar with Honors. I was overjoyed, and my certification wasn’t until June 6th! I had plenty of time to focus on my studies, everything was going to be alright! Right?</p>
-<p> </p>
-<p>Time went on, the seasons changed, and I was so burnt out from my classes that I just wanted to be done, so I finished my academic year, and went home. “<em>Of course, I was the most studious student ever! I went home, and hit the GSEC right away!”</em> I sure hope someone said that because I didn’t. I went home, slept, ate, and relaxed. That’s all I did!</p>
-<p> </p>
-<p>On May 23rd, 2024, I got the sudden urge to be productive, and where better to start than the GSEC! I sit down, crack my fingers, and get to work. I looked at maybe 5% of the material, and I took a practice exam in April to test my base knowledge with no books. I got a 65%, which I was relatively happy with considering I had no material guiding me. With a baseline, I began, I had some time this week, and nothing could go wrong! (that is foreshadowing…)</p>
-<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/gsec/cy2.png" loading="lazy" decoding="async"
-  alt=""></p>
-<p>When I sat down to look at the material again, I realized a little counter on the top right that said “16 days of access remaining.” I, at the time of writing this, had a trip booked out of the country for 2 weeks, so I was under the belief that I could study the GSEC on the flight, and have my exam be after. So I went to ProctorU, thinking that the exam would be after, and that is when I realized the last day I could schedule the exam, is the last day I have access to the course June 6th. I won’t be back, and while I can take it overseas, I promised my S/O that I wouldn&rsquo;t be working at all, because on vacation, vacation is for family.</p>
-<p> </p>
-<p>I went into full panic mode. How am I going to do this cert? Am I going to pass? What do I do? Do I cave and buy the extension? No. I couldn&rsquo;t buy the extension, so my options were not to get one of the most well-respected certs in the industry or put my nose to the grindstone, because of the title you can see which one I chose. Here is what I did, to pass the exam with an 87%, with roughly an hour left on the clock.</p>
-<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/gsec/cy3.png" loading="lazy" decoding="async"
-  alt=""></p>
-<h2 id="part-1-buy-thousands-of-sticky-notes-you-are-going-to-need-them" class="mt-8 mb-3 text-xl sm:text-2xl text-white">
+<p>With that being said, let’s get started!</p>
+<h2 id="task-2-google-dorking" class="mt-8 mb-3 text-xl sm:text-2xl text-white">
     <span class="relative inline-block">
-      <strong>Part 1: Buy thousands of Sticky Notes, you are going to need them.</strong>
+      <strong>Task 2: Google Dorking</strong>
       <span
         class="absolute left-0 -bottom-1 h-px w-0 bg-indigo-400"></span>
     </span>
 </h2>
-<p>Lucky for me, I walked into this exam having my GFACT already. What made that experience go so smoothly (other than giving myself tons of time to study) was <a href="https://tisiphone.net/2015/08/18/giac-testing/">this article</a> by Lesley Carhart, a SANS-certified instructor that talked about the Pancake Method. It is much more well thought through and executed than what I did, but than again, I had three days so give me some grace.</p>
+<p>Google Dorking is a fundamental skill used by any OSINT professional. Google Dorking, as described by the room is “a search technique that uses advanced search operators to refine Google search results. It allows investigators, cybersecurity professionals, and researchers to uncover publicly available, but hard-to-find, data/information.”</p>
 <p> </p>
-<p>Essentially, important subtopics or topics I didn&rsquo;t feel comfortable in were marked first. I didn&rsquo;t go in order of book (Book 6 -&gt; Book 4 -&gt; Book 1 etc.) and bounced around a lot, however, when I started a book, I made sure to finish it before moving on. I went in order of section. On the top of the book, I marked where a new module, and on the sides, I marked the subtopics of that module, all with the same color sticky notes.</p>
-<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/gsec/cy4.jpg" loading="lazy" decoding="async"
+<p>Google Dorking is expansive, and Task 2 does a great job of explaining the very basics. If you are interested in learning more, feel free to take a look here for a cheat-sheet: <a href="https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06">https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06</a></p>
+<p>Task 2 asks us 3 questions:</p>
+<ul>
+<li>
+<p>What is the name of the Chief Financial Officer of the CFPB as mentioned in the PDF?</p>
+</li>
+<li>
+<p>What was the Total Fund Balance with Treasury in 2024?</p>
+</li>
+<li>
+<p>What is the duration of the CFPB Supervisor Development Seminar?</p>
+</li>
+</ul>
+<p>To find the answers, we can use basic Google Dorking, and OSINT researchers best friend, Ctrl + F to find specific answers to these questions. Test your skills by answering those questions here. If you think you have it right, go and submit the flag inside the room!</p>
+<h2 id="task-3-introduction-to-osint" class="mt-8 mb-3 text-xl sm:text-2xl text-white">
+    <span class="relative inline-block">
+      <strong>Task 3: Introduction to OSINT</strong>
+      <span
+        class="absolute left-0 -bottom-1 h-px w-0 bg-indigo-400"></span>
+    </span>
+</h2>
+<p>“OSINT (Open-Source Intelligence) refers to the collection and analysis of publicly available information to generate actionable insights.” And OSINT, it is really cool! There are many reasons to use OSINT, but the main part of OSINT is finding publicly available information, not anything you have to use unethical, or illegal means to achieve. *Note: OSINT is NOT always free, some information is trapped behind a paywall, but always make sure you are doing your due-diligence to find proper information before paying anything!</p>
+<p> </p>
+<p>There is one question from this section I would like to highlight. <strong>Where did Lip-Bu Tan work before joining Intel Corporation?</strong> There are several ways to solve this question:</p>
+<h3 id="1-wiki-page" class="mt-6 mb-2 text-lg sm:text-xl text-white">
+    <span class="relative inline-block">
+      <strong>1. Wiki Page:</strong>
+      <span
+        class="absolute left-0 -bottom-1 h-px w-0 bg-indigo-400"></span>
+    </span>
+</h3>
+<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/osint-thm/thm2.png" loading="lazy" decoding="async"
   alt=""></p>
-<p>It isn’t pretty, but doing this allows you to read the material, review it, and know which book contains what. I used this, and I think singlehandedly, this was the reason I passed. I spent $70 on Sticky Notes, and thank goodness I did.</p>
-<h2 id="part-2-2x-speed-is-your-friend" class="mt-8 mb-3 text-xl sm:text-2xl text-white">
+<p>Usually, for public facing people, they will have information available all over the web. The old adage is true, however. Do not trust Wikipedia, without doing further research! Anyone can post here, so it is your job as an investigator to ensure you are doing your best to confirm this!</p>
+<h3 id="2-social-media-accounts" class="mt-6 mb-2 text-lg sm:text-xl text-white">
     <span class="relative inline-block">
-      <strong>Part 2: 2x Speed is your friend.</strong>
+      <strong>2. Social Media Accounts</strong>
       <span
         class="absolute left-0 -bottom-1 h-px w-0 bg-indigo-400"></span>
     </span>
-</h2>
-<p>When I started, I had 5% of the course done, and by the time I finished, and by the time it was test day, I finished around the 70% mark. That’s about 30 Hours of Material in three days. How did I do that? Yes.</p>
-<p> </p>
-<p>Bryan Simon was the course instructor, and the beauty of the way he talks is that you can still retain the info at 2 times the speed. As I was working on the sticky notes, I was watching the accompanying video to hear what he was saying, while reading the info on the book. This tactic saved me the most time, and allowed me to get this done.</p>
-<h2 id="part-3-labs-who-needs-em" class="mt-8 mb-3 text-xl sm:text-2xl text-white">
-    <span class="relative inline-block">
-      <strong>Part 3: Labs, who needs ‘em?</strong>
-      <span
-        class="absolute left-0 -bottom-1 h-px w-0 bg-indigo-400"></span>
-    </span>
-</h2>
-<p>I don&rsquo;t advocate for anyone to do a SANS cert in 3 days, take some time, and absorb all the information. I was in a very different situation then a lot of people, where I had the knowledge of all of the labs from CTFs, personal studies, and my work, teaching others the same material. I saved dozens of hours because I skipped the labs, but please don’t do this. Learn the material, then move on!</p>
-<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/gsec/cy5.png" loading="lazy" decoding="async"
+</h3>
+<p>Lucky for us, Lip-Bu Tan has a social media account! However, this is another thing we may not be able to take at face value, as people lie, so lets confirm this for the third and final time! (Bonus points if you can find a solid way to connect Lip to the company. I.E Photos at banquets, pictures with board members, ect.)</p>
+<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/osint-thm/thm3.png" loading="lazy" decoding="async"
   alt=""></p>
-<p>(The workbook is helpful though, make sure to review that)</p>
-<h2 id="conclusion-what-you-put-in-is-what-you-get-out" class="mt-8 mb-3 text-xl sm:text-2xl text-white">
+<h3 id="3-news-outletsnew-corporations" class="mt-6 mb-2 text-lg sm:text-xl text-white">
     <span class="relative inline-block">
-      <strong>Conclusion: What You Put In Is What You Get Out.</strong>
+      <strong>3. News Outlets/New Corporations</strong>
+      <span
+        class="absolute left-0 -bottom-1 h-px w-0 bg-indigo-400"></span>
+    </span>
+</h3>
+<p>If you see the same thing over and over again, it may be true. Intel, Lip-Bu Tans new employer, published the below article to congratulate him, and to talk about his background.</p>
+<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/osint-thm/thm4.png" loading="lazy" decoding="async"
+  alt=""></p>
+<p>Now that we did our due-diligence, we can now proceed with 100% certainty we know where Lip’s previous place of employment was.</p>
+<h2 id="task-4-metadata-extraction" class="mt-8 mb-3 text-xl sm:text-2xl text-white">
+    <span class="relative inline-block">
+      <strong>Task 4: Metadata Extraction</strong>
       <span
         class="absolute left-0 -bottom-1 h-px w-0 bg-indigo-400"></span>
     </span>
 </h2>
-<p>Over those 3 days, I did nothing else but read, watch videos, and study. I took breaks, spent all of Friday not studying, and made sure to stay plenty hydrated, take care of you and your needs first, the cert will follow, I promise you. But put in time, stay dedicated, make sure that you are keeping up with your labs and material. I am so proud that I am certified through SANS, and who knows, maybe I’ll be a part of their university soon. Go Sentinals! :)</p>
+<p>“Metadata is hidden data stored within files (PDFs, images, and documents) that can expose who created them, when, where, and with what device or software!” This challenge, we are given a photo, and asked to use various tools to perform analysis. MetaData2Go is what I used to solve this challenge, an entirely web-based Metadata analysis tool.</p>
+<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/osint-thm/thm5.png" loading="lazy" decoding="async"
+  alt=""></p>
+<p>Using out Metadata tool, we see various information, but the most important here? The Description! We see something out of the ordinary…</p>
+<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/osint-thm/thm6.png" loading="lazy" decoding="async"
+  alt=""></p>
+<p>It looks… encoded? Checking a tool like dcode.fr and using their cipher identifier, we can check what type of cipher this is. We know it has a key, and checking the hint shows us it is a Vigenère Cipher. Knowing this, we can than solve the challenge with the provided key!</p>
+<h2 id="task-5-socmint" class="mt-8 mb-3 text-xl sm:text-2xl text-white">
+    <span class="relative inline-block">
+      <strong>Task 5: SOCMINT</strong>
+      <span
+        class="absolute left-0 -bottom-1 h-px w-0 bg-indigo-400"></span>
+    </span>
+</h2>
+<p>“SOCMINT (Social Media Intelligence) is a branch of OSINT that focuses on collecting, analyzing, and interpreting information from social media platforms” This section, by far, is my favorite. Every single person needs to know about OPSEC, or Operational Security, aka, how likely would people be able to find you based on what you post/do on the internet? This section does a great job of explaining how SOCMINT is used, but just know, the Internet Never Forgets.</p>
+<p>Read this section, seriously, you will not regret it.</p>
+<h2 id="task-6-osint-fusion" class="mt-8 mb-3 text-xl sm:text-2xl text-white">
+    <span class="relative inline-block">
+      <strong>Task 6: OSINT Fusion</strong>
+      <span
+        class="absolute left-0 -bottom-1 h-px w-0 bg-indigo-400"></span>
+    </span>
+</h2>
+<p>OSINT Fusion is the culmination of everything we have learned, so lets get started!</p>
+<p>At first, we are provided a task file. Downloading, and opening the task file, we have this image.</p>
+<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/osint-thm/thm7.png" loading="lazy" decoding="async"
+  alt=""></p>
+<p>There are 3 questions to answer:</p>
+<ol>
+<li>
+<p>What is the name of the Artist that sent the image?</p>
+</li>
+<li>
+<p>We have found that the user has a Twitter / X account. What is their handle?</p>
+</li>
+<li>
+<p>Looks like that image has a secret key that is encrypted, and our investigators need your help to decipher it</p>
+</li>
+</ol>
+<p>Since we have an image, we are going to first start with reviewing the Metadata. We see 2 interesting things, number one, the comment, and number 2, the artist!</p>
+<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/osint-thm/thm8.png" loading="lazy" decoding="async"
+  alt=""></p>
+<p>We already have answered 1/3! C*** ** is our artist, and we are part of the way to answering the 3rd. For now, lets answer the social media question. Since I am now on the superior social networking platform (follow me on bluesky: @pex-x.bsky.social) my X account is gone!</p>
 <p> </p>
-<p>Thank you for the read, and good luck on getting that Cert!</p>
+<p>There is a tool I love for social media intelligence called xcancel. (You can find xcancel here: <a href="https://xcancel.com/">https://xcancel.com/</a>) XCancel Bypasses those annoying walls when you try to search twitter. Using XCancel is entirely anonymous, and it is what I use now for my investigations.</p>
+<p>When we search C*** , we see the following.</p>
+<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/osint-thm/thm9.png" loading="lazy" decoding="async"
+  alt=""></p>
+<p>C*** does have an account, and just like that, we answered question 2.</p>
+<p>For question 3, good luck! I would suggest cooking a nice meal with a Cyber Chef (hint hint). :)</p>
+<h2 id="conclusion" class="mt-8 mb-3 text-xl sm:text-2xl text-white">
+    <span class="relative inline-block">
+      <strong>Conclusion:</strong>
+      <span
+        class="absolute left-0 -bottom-1 h-px w-0 bg-indigo-400"></span>
+    </span>
+</h2>
+<p>OSINT. Is. Awesome. The number one thing this lab does a particularly great job at is explaining the ethics behind OSINT. With great power, comes great responsibility, and we need to ensure that our up-and-comers who practice OSINT, are practicing #OSINT4GOOD. I hope you learned a thing or two from this, and go check out F1NDX and the THM Room! Thank you!</p>
+<p><img class="mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20" src="/images/osint-thm/yoda-osint-thm.gif" loading="lazy" decoding="async"
+  alt=""></p>
 
       </div>
     </div>

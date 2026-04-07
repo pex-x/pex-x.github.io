@@ -6,8 +6,15 @@
     <description>Recent content on [pex: ~]# ls</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2024 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Apr 2025 20:00:00 -0600</lastBuildDate>
     <atom:link href="https://xpex.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Intro To OSINT — THM Walkthrough</title>
+      <link>https://xpex.me/blog/osint-thm/</link>
+      <pubDate>Sun, 06 Apr 2025 20:00:00 -0600</pubDate>
+      <guid>https://xpex.me/blog/osint-thm/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34; class=&#34;mt-8 mb-3 text-xl sm:text-2xl text-white&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;relative inline-block&#34;&gt;&#xD;&#xA;      &lt;strong&gt;Introduction:&lt;/strong&gt;&#xD;&#xA;      &lt;span&#xD;&#xA;        class=&#34;absolute left-0 -bottom-1 h-px w-0 bg-indigo-400&#34;&gt;&lt;/span&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hello everyone! My name is Pex and today I am going to post a brief writeup on the OSINT Level 1 Room on TryHackMe, created by the incredible F1NDX. If you are interested in getting started in OSINT, click the link below to get started!&lt;/p&gt;&#xA;&lt;p&gt;THM OSINT Level 1 Room — &lt;a href=&#34;https://tryhackme.com/room/osintintel&#34;&gt;https://tryhackme.com/room/osintintel&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img class=&#34;mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20&#34; src=&#34;https://xpex.me/images/osint-thm/thm1.png&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&#xD;&#xA;  alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>I Passed the SANS GSEC in 3 days, here’s how.</title>
       <link>https://xpex.me/blog/gsec/</link>
