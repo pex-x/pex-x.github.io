@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on [pex: ~]# ls</title>
+    <link>https://xpex.me/tags/linux/</link>
+    <description>Recent content in Linux on [pex: ~]# ls</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Dec 2024 15:00:00 +0000</lastBuildDate>
+    <atom:link href="https://xpex.me/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning TMUX — Personal Notes</title>
+      <link>https://xpex.me/blog/tmux/</link>
+      <pubDate>Mon, 30 Dec 2024 15:00:00 +0000</pubDate>
+      <guid>https://xpex.me/blog/tmux/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34; class=&#34;mt-8 mb-3 text-xl sm:text-2xl text-white&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;relative inline-block&#34;&gt;&#xD;&#xA;      &lt;strong&gt;Introduction:&lt;/strong&gt;&#xD;&#xA;      &lt;span&#xD;&#xA;        class=&#34;absolute left-0 -bottom-1 h-px w-0 bg-indigo-400&#34;&gt;&lt;/span&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hey all, figured I might as well publish my personal notes for ReMux the TMUX lab on THM while getting ready for my OSCP. Enjoy!&lt;/p&gt;&#xA;&lt;h2 id=&#34;tmux-start&#34; class=&#34;mt-8 mb-3 text-xl sm:text-2xl text-white&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;relative inline-block&#34;&gt;&#xD;&#xA;      &lt;strong&gt;TMUX Start&lt;/strong&gt;&#xD;&#xA;      &lt;span&#xD;&#xA;        class=&#34;absolute left-0 -bottom-1 h-px w-0 bg-indigo-400&#34;&gt;&lt;/span&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;To start a new tmux session just run the tmux command with no arguments. The first session create will have the name “0”.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

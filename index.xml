@@ -16,6 +16,13 @@
       <description>&lt;h2 id=&#34;introduction&#34; class=&#34;mt-8 mb-3 text-xl sm:text-2xl text-white&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;relative inline-block&#34;&gt;&#xD;&#xA;      &lt;strong&gt;Introduction:&lt;/strong&gt;&#xD;&#xA;      &lt;span&#xD;&#xA;        class=&#34;absolute left-0 -bottom-1 h-px w-0 bg-indigo-400&#34;&gt;&lt;/span&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hello everyone! My name is Pex and today I am going to post a brief writeup on the OSINT Level 1 Room on TryHackMe, created by the incredible F1NDX. If you are interested in getting started in OSINT, click the link below to get started!&lt;/p&gt;&#xA;&lt;p&gt;THM OSINT Level 1 Room — &lt;a href=&#34;https://tryhackme.com/room/osintintel&#34;&gt;https://tryhackme.com/room/osintintel&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img class=&#34;mx-auto my-6 rounded-md border border-gray-800/70 bg-black/20&#34; src=&#34;https://xpex.me/images/osint-thm/thm1.png&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&#xD;&#xA;  alt=&#34;&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Learning TMUX — Personal Notes</title>
+      <link>https://xpex.me/blog/tmux/</link>
+      <pubDate>Mon, 30 Dec 2024 15:00:00 +0000</pubDate>
+      <guid>https://xpex.me/blog/tmux/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34; class=&#34;mt-8 mb-3 text-xl sm:text-2xl text-white&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;relative inline-block&#34;&gt;&#xD;&#xA;      &lt;strong&gt;Introduction:&lt;/strong&gt;&#xD;&#xA;      &lt;span&#xD;&#xA;        class=&#34;absolute left-0 -bottom-1 h-px w-0 bg-indigo-400&#34;&gt;&lt;/span&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hey all, figured I might as well publish my personal notes for ReMux the TMUX lab on THM while getting ready for my OSCP. Enjoy!&lt;/p&gt;&#xA;&lt;h2 id=&#34;tmux-start&#34; class=&#34;mt-8 mb-3 text-xl sm:text-2xl text-white&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;relative inline-block&#34;&gt;&#xD;&#xA;      &lt;strong&gt;TMUX Start&lt;/strong&gt;&#xD;&#xA;      &lt;span&#xD;&#xA;        class=&#34;absolute left-0 -bottom-1 h-px w-0 bg-indigo-400&#34;&gt;&lt;/span&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;To start a new tmux session just run the tmux command with no arguments. The first session create will have the name “0”.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>I Passed the SANS GSEC in 3 days, here’s how.</title>
       <link>https://xpex.me/blog/gsec/</link>
       <pubDate>Mon, 01 Jan 2024 15:00:00 +0000</pubDate>
@@ -27,7 +34,7 @@
       <link>https://xpex.me/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://xpex.me/about/</guid>
-      <description>&lt;p&gt;I’m Pex.&lt;/p&gt;&#xA;&lt;p&gt;Breaking web apps, reversing binaries, constantly learning.&lt;/p&gt;&#xA;&lt;p&gt;[ &lt;a href=&#34;https://xpex.me/blog/&#34;&gt;LOG_ACTIVITY&lt;/a&gt; ] | [ &lt;a href=&#34;https://www.youtube.com/@pex.x&#34;&gt;WATCH_EXECUTION&lt;/a&gt; ]&lt;/p&gt;</description>
+      <description>&lt;p&gt;I’m Pex.&lt;/p&gt;&#xA;&lt;p&gt;Breaking web apps, doing forensics, reversing binaries and constantly learning.&lt;/p&gt;&#xA;&lt;p&gt;[ &lt;a href=&#34;https://xpex.me/blog/&#34;&gt;LOG_ACTIVITY&lt;/a&gt; ] | [ &lt;a href=&#34;https://www.youtube.com/@pex.x&#34;&gt;WATCH_EXECUTION&lt;/a&gt; ]&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
