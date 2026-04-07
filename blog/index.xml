@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>[pex: ~]# ls</title>
-    <link>https://xpex.me/</link>
-    <description>Recent content on [pex: ~]# ls</description>
+    <title>Blogs on [pex: ~]# ls</title>
+    <link>https://xpex.me/blog/</link>
+    <description>Recent content in Blogs on [pex: ~]# ls</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 2024 15:00:00 +0000</lastBuildDate>
-    <atom:link href="https://xpex.me/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://xpex.me/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I Passed the SANS GSEC in 3 days, here’s how.</title>
       <link>https://xpex.me/blog/gsec/</link>
       <pubDate>Mon, 01 Jan 2024 15:00:00 +0000</pubDate>
       <guid>https://xpex.me/blog/gsec/</guid>
       <description>&lt;h2 id=&#34;introduction&#34; class=&#34;mt-8 mb-3 text-xl sm:text-2xl text-white&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;relative inline-block&#34;&gt;&#xD;&#xA;      &lt;strong&gt;Introduction&lt;/strong&gt;&#xD;&#xA;      &lt;span&#xD;&#xA;        class=&#34;absolute left-0 -bottom-1 h-px w-0 bg-indigo-400&#34;&gt;&lt;/span&gt;&#xD;&#xA;    &lt;/span&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;You didn’t read that wrong, I got my SANS GSEC Network, Endpoint, and Cloud in 3 Days, 2 if you count my break from studying, but still listening to the material.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;My story starts long long ago, and by long long ago, I mean in December of 2023. I had always participated in Cyber Events, and when I was in High School, I discovered CyberStart America (RIP Cyberstart, you will be missed). Cyberstart was an intro-level, 6-month-long CTF that taught the fundamentals of Cybersecurity and Hacking. I fell in love with this event and began taking it more and more seriously, soon, I placed within the top 5 in my state.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://xpex.me/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://xpex.me/about/</guid>
-      <description>&lt;p&gt;I’m Pex.&lt;/p&gt;&#xA;&lt;p&gt;Breaking web apps, reversing binaries, constantly learning.&lt;/p&gt;&#xA;&lt;p&gt;[ &lt;a href=&#34;https://xpex.me/blog/&#34;&gt;LOG_ACTIVITY&lt;/a&gt; ] | [ &lt;a href=&#34;https://www.youtube.com/@pex.x&#34;&gt;WATCH_EXECUTION&lt;/a&gt; ]&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

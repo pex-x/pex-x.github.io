@@ -2,12 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pex-x.github.io/</loc>
+    <loc>https://xpex.me/</loc>
+    <lastmod>2024-01-01T15:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pex-x.github.io/categories/</loc>
+    <loc>https://xpex.me/blog/</loc>
+    <lastmod>2024-01-01T15:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pex-x.github.io/posts/</loc>
+    <loc>https://xpex.me/tags/certification/</loc>
+    <lastmod>2024-01-01T15:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pex-x.github.io/tags/</loc>
+    <loc>https://xpex.me/tags/gsec/</loc>
+    <lastmod>2024-01-01T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xpex.me/blog/gsec/</loc>
+    <lastmod>2024-01-01T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xpex.me/tags/sans/</loc>
+    <lastmod>2024-01-01T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xpex.me/tags/</loc>
+    <lastmod>2024-01-01T15:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xpex.me/about/</loc>
+  </url><url>
+    <loc>https://xpex.me/categories/</loc>
   </url>
 </urlset>

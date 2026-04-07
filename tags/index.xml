@@ -2,10 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on [pex: ~]# ls</title>
-    <link>https://pex-x.github.io/tags/</link>
+    <link>https://xpex.me/tags/</link>
     <description>Recent content in Tags on [pex: ~]# ls</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://pex-x.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 2024 15:00:00 +0000</lastBuildDate>
+    <atom:link href="https://xpex.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Certification</title>
+      <link>https://xpex.me/tags/certification/</link>
+      <pubDate>Mon, 01 Jan 2024 15:00:00 +0000</pubDate>
+      <guid>https://xpex.me/tags/certification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gsec</title>
+      <link>https://xpex.me/tags/gsec/</link>
+      <pubDate>Mon, 01 Jan 2024 15:00:00 +0000</pubDate>
+      <guid>https://xpex.me/tags/gsec/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sans</title>
+      <link>https://xpex.me/tags/sans/</link>
+      <pubDate>Mon, 01 Jan 2024 15:00:00 +0000</pubDate>
+      <guid>https://xpex.me/tags/sans/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
